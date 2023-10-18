@@ -11,7 +11,7 @@
 
 (function () {
   window.debug = true;
-  if (debug) console.log("started");
+  if (window.debug) console.log("started");
   setInterval(() => {
     if (popupFind()) {
      // if (debug) console.log("remove popup");
